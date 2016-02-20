@@ -224,7 +224,15 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "chat",
+    "info",
+    "ver",
+    "nerkh",
+    "plugins",
+    "welcome",
+    "chats",
+    "linkpv"
     },
  sudo_users = {179286096,157187288,119650184,174602122,4,tonumber(our_id)},--Sudo users
     disabled_channels = {},
