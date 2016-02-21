@@ -5,6 +5,7 @@ end
   return "you're sudo"
 end
 elseif msg.text == "me" then
+end
       if  is_admin(msg) then
   return "you're admin"
 end
