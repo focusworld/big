@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "chat",
     "info",
-    "ver",
+    "version",
     "nerkh",
     "plugins",
     "welcome",
