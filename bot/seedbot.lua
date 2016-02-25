@@ -225,7 +225,6 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "chat",
     "info",
     "version",
     "nerkh",
