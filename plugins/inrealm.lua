@@ -679,6 +679,27 @@ return {
         "^[!/](log)$",
         "^[!/](help)$",
         "^!!tgservice (.+)$",
+    "^(creategroup) (.*)$",
+    "^(createrealm) (.*)$",
+    "^(setabout) (%d+) (.*)$",
+    "^(setrules) (%d+) (.*)$",
+    "^(setname) (.*)$",
+    "^(setgpname) (%d+) (.*)$",
+    "^(setname) (%d+) (.*)$",
+        "^(lock) (%d+) (.*)$",
+    "^(unlock) (%d+) (.*)$",
+    "^(setting) (%d+)$",
+        "^(wholist)$",
+        "^(who)$",
+        "^(type)$",
+    "^(kill) (chat) (%d+)$",
+    "^(kill) (realm) (%d+)$",
+    "^(addadmin) (.*)$", -- sudoers only
+    "^(removeadmin) (.*)$", -- sudoers only
+    "^(list) (.*)$",
+        "^(log)$",
+        "^(help)$",
+        "^!!tgservice (.+)$",
   },
   run = run
 }
