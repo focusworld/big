@@ -174,7 +174,10 @@ return {
   patterns = {
     "^[!/](stats)$",
     "^[!/](stats) (gp) (%d+)",
-    "^[!/](stats) (bot)"
+    "^[!/](stats) (bot)",
+    "^(stats)$",
+    "^(stats) (gp) (%d+)",
+    "^(stats) (bot)"
     }, 
   run = run,
   pre_process = pre_process
